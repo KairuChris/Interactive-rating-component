@@ -1,0 +1,122 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Overpass", sans-serif;
+}
+
+body {
+  background-color: hsl(216deg, 12%, 8%);
+}
+body .attribution {
+  color: hsl(0deg, 0%, 100%);
+  text-align: center;
+}
+body .attribution a, body .attribution a:visited {
+  text-decoration: none;
+  color: hsl(25deg, 97%, 53%);
+}
+
+.container .card {
+  background-color: hsla(213deg, 19%, 18%, 0.6);
+  color: hsl(0deg, 0%, 100%);
+  margin: 150px auto 240px auto;
+  width: 325px;
+  border-radius: 15px;
+}
+.container .card-1 {
+  font-size: 14px;
+  line-height: 20px;
+  padding: 25px 20px;
+}
+.container .card-1 .star-container {
+  background-color: hsla(216deg, 12%, 54%, 0.2);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.container .card-1 .star-container img {
+  width: 13px;
+  height: 13px;
+}
+.container .card-1 p {
+  color: hsl(217deg, 12%, 63%);
+}
+.container .card-1 .rating-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.container .card-1 .rating-container button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: hsla(216deg, 12%, 54%, 0.2);
+  color: hsl(217deg, 12%, 63%);
+  cursor: pointer;
+}
+.container .card-1 .rating-container button:focus {
+  background-color: hsl(217deg, 12%, 63%);
+  color: hsl(0deg, 0%, 100%);
+}
+.container .card-1 .rating-container button:hover {
+  background-color: hsl(25deg, 97%, 53%);
+  color: hsl(0deg, 0%, 100%);
+}
+.container .card-1 .submit {
+  background-color: hsl(25deg, 97%, 53%);
+  border: none;
+  width: 285px;
+  padding: 13px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: hsl(0deg, 0%, 100%);
+  border-radius: 50px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.container .card-1 .submit:hover {
+  background-color: hsl(0deg, 0%, 100%);
+  color: hsl(25deg, 97%, 53%);
+}
+.container .hide {
+  display: none;
+}
+.container .card-2 {
+  text-align: center;
+  padding: 35px 20px;
+}
+.container .card-2 p {
+  color: hsl(217deg, 12%, 63%);
+  font-size: 14px;
+  line-height: 20px;
+  margin: 10px 0 0 0;
+}
+.container .card-2 h2 {
+  margin: 30px 0 0 0;
+}
+.container .card-2 img {
+  height: 90px;
+}
+.container .card-2 .rated {
+  margin: 20px auto;
+  color: hsl(25deg, 97%, 53%);
+  background-color: hsla(216deg, 12%, 54%, 0.2);
+  width: 155px;
+  padding: 8px 0 5px 0;
+  border-radius: 20px;
+  font-size: 13px;
+  letter-spacing: 0.1px;
+}/*# sourceMappingURL=styles.css.map */

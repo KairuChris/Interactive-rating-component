@@ -1,0 +1,132 @@
+@forward 'globals';
+
+$primary-Orange:hsl(25, 97%, 53%);
+$neutral-White: hsl(0, 0%, 100%);
+$neutral-LightGrey: hsl(217, 12%, 63%);
+$neutral-MediumGrey: hsl(216, 12%, 54%,.2);
+$neutral-DarkBlue: hsl(213, 19%, 18%,.6);
+$neutral-VeryDarkBlue: hsl(216, 12%, 8%);
+
+body{
+    background-color: $neutral-VeryDarkBlue;
+    .attribution{
+        color: $neutral-White;
+        text-align: center;
+
+        a,a:visited{
+            text-decoration: none;
+            color: $primary-Orange;
+        }
+    }
+}
+
+.container{
+    .card{
+        background-color: $neutral-DarkBlue;
+        color: $neutral-White;
+        margin: 150px auto 240px auto;
+        width: 325px;
+        border-radius: 15px;
+ 
+    }
+    .card-1{
+        font-size: 14px;
+        line-height: 20px;
+        padding: 25px 20px;
+     
+        .star-container{
+            background-color: $neutral-MediumGrey;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            img{
+                width: 13px;
+                height: 13px;
+            }
+        }
+
+        p{
+            color: $neutral-LightGrey;
+        }
+        .rating-container{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 10px;
+
+            button{
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                border: none;
+                background-color: $neutral-MediumGrey;
+                color: $neutral-LightGrey;
+                cursor: pointer;
+
+                &:focus{
+                    background-color: $neutral-LightGrey;
+                    color: $neutral-White;
+                }
+                &:hover{
+                    background-color: $primary-Orange;
+                    color: $neutral-White;
+                }
+            }
+        }
+
+        .submit{
+            background-color: $primary-Orange;
+            border: none;
+            width: 285px;
+            padding: 13px;
+            letter-spacing: 2px;
+            font-weight: 700;
+            color: $neutral-White;
+            border-radius: 50px;
+            margin-top: 20px;
+            cursor: pointer;
+            &:hover{
+                background-color: $neutral-White;
+                color: $primary-Orange;
+            }
+        }
+    }
+    .hide{
+        display: none;
+    }
+
+    .card-2{
+        text-align: center;
+        padding: 35px 20px;
+
+        p{
+            color: $neutral-LightGrey;
+            font-size: 14px;
+            line-height: 20px;
+            margin: 10px 0 0 0;
+        }
+
+        h2{
+            margin: 30px 0 0 0;
+        }
+    
+
+        img{
+            height: 90px;
+          
+        }
+        .rated{
+            margin: 20px auto;
+            color: $primary-Orange;
+            background-color: $neutral-MediumGrey;
+            width: 155px;
+            padding: 8px 0 5px 0;
+            border-radius: 20px;
+            font-size: 13px;
+            letter-spacing: .1px;
+            
+        }
+    }
+}
